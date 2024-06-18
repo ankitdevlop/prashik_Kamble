@@ -10,9 +10,16 @@ html{
 }
 
 body {
-    background-color: #081d325f;
+    background: rgb(108,128,148);
+    background: linear-gradient(90deg, rgba(108,128,148,1) 14%, rgba(129,108,152,1) 50%, rgba(114,132,139,1) 75%);
 }
+.navbarBg{
+    background: rgb(24,35,46);
+    background: linear-gradient(90deg, rgba(24,35,46,1) 14%, rgba(43,38,38,1) 50%, rgba(30,38,41,1) 75%);
 
+z-index: 10 ;
+color:white;
+}
 /* nav bar start */
 .navbar {
     background-color: black;
@@ -48,7 +55,7 @@ body {
     font-weight: 700;
     /* text-decoration: underline; */
     text-underline-offset: 15px;
-    /* text-decoration: underline solid red 3px; */
+    /* text-decoration: underline solid black 3px; */
 }
 
 a:hover {
@@ -112,12 +119,12 @@ a:hover {
 }
 
 .shubham-text h5 span {
-    color: red;
+    color: black;
     font-size: 22px;
 }
 
 .shubham-text h1 {
-    color: red;
+    color: black;
     font-size: 3rem;
     font-weight: 700;
     padding-bottom: 15px;
@@ -159,7 +166,7 @@ a:hover {
 
 .my-skills-header {
     text-align: center;
-    color: red;
+    color: black;
     padding: 1rem;
     position: relative;
     margin-bottom: -300px;
@@ -335,7 +342,7 @@ a:hover {
 
 .my-portfolio-header {
     text-align: center;
-    color: red;
+    color: black;
     padding: 1rem;
     position: relative;
     margin-bottom: -300px;
@@ -385,7 +392,7 @@ a:hover {
 }
 
 .qr-code-text h1 {
-    color: red;
+    color: black;
     font-size: 50px;
     font-weight: 800;
     font-family: 'Poppins', sans-serif;
@@ -409,13 +416,13 @@ a:hover {
     margin: 0 auto;
     padding: 40px;
     text-align: center;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
 
 }
 
 .contact-us {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
     gap: 40px;
     margin-top: 40px;
     /* border: solid ; */
@@ -444,33 +451,33 @@ a:hover {
 
 .form-group input,
 .form-group textarea {
-    width: 70%;
-    padding: 5px;
-    margin-left: 15%;
-    border-radius: 30px;
-    border: solid rgb(181, 169, 169);
-    background-color: #2a2a2a;
-    text-indent: 10PX;
+    /* width: 70%; */
+    /* padding: 5px; */
+    /* margin-left: 15%; */
+    border-radius: 9px;
+    /* border: solid rgb(181, 169, 169); */
+    /* background-color: #2a2a2a; */
+    /* text-indent: 10PX; */
+    text-align: center;
+    justify-content: center;
     color: #fff;
-
 
 
 }
 
 button[type="submit"] {
-    padding: 8px 150px;
+    padding: 14px;
     background-color: #000;
     color: #fff;
     border: none;
     cursor: pointer;
-    margin-left: 15%;
-    margin-top: 20px;
-    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 18px;
+    width: 20vh;
     box-shadow: 5px 7px 25px rgba(0, 0, 0, 0.7);
-    font-size: 1.4rem;
-    font-weight: 800;
     text-transform: uppercase;
-    padding: 0.7rem 8.5rem;
+
 
 }
 
@@ -495,14 +502,14 @@ button[type="submit"] {
 
 }
 
-.right-grid .social-icons a {
-    display: inline-block;
-    margin-right: 10px;
+ .social-icons a {
+    /* display: inline-block; */
+    /* margin-right: 10px; */
     color: #000;
 }
 
 .left-grid {
-    /* border: solid red; */
+    /* border: solid black; */
     width: 500px;
 }
 
@@ -514,14 +521,14 @@ button[type="submit"] {
 .social-icons {
     margin-top: 30px;
     font-size: 60px;
-    margin-left: -15px;
+    /* margin-left: -15px; */
 
 }
 
 .contact-info {
-    font-size: 20px;
+    font-size: 16px;
     color: #FFFFFF;
-    padding-left: 50px;
+    /* padding-left: 50px; */
     padding-top: 40px;
 }
 
@@ -538,13 +545,13 @@ button[type="submit"] {
 }
 
 .form-group input {
-    margin-top: -10px;
+    /* margin-top: -10px; */
 }
 
 .contact-us-tittle {
     font-weight: 800 !important;
     font-family: 'Poppins', sans-serif;
-    color: red;
+    color: black;
     text-shadow: 5px 7px 25px rgba(0, 0, 0, 0.8);
     margin-top: -400px;
     margin-bottom: -400px;
@@ -584,7 +591,7 @@ button[type="submit"] {
         background-color: #FFFFFF;
         float: left;
         margin-bottom: 8px;
-        background-color: red;
+        background-color: black;
     }
 
 
@@ -769,7 +776,7 @@ button[type="submit"] {
     .hidex1 {
         font-weight: 800 !important;
         font-family: 'Poppins', sans-serif;
-        color: red;
+        color: black;
         text-shadow: 5px 7px 25px rgba(0, 0, 0, 0.8);
         margin-top: -90px;
         margin-bottom: -400px;
@@ -779,7 +786,7 @@ button[type="submit"] {
     .hidex2 {
         font-weight: 800 !important;
         font-family: 'Poppins', sans-serif;
-        color: red;
+        color: black;
         text-shadow: 5px 7px 25px rgba(0, 0, 0, 0.8);
         margin-top: -90px;
         margin-bottom: -400px;
@@ -793,7 +800,7 @@ button[type="submit"] {
 
     .contact-info {
         margin-top: -30px;
-        padding-left: 80px;
+        /* padding-left: 80px; */
 
     }
 
@@ -802,8 +809,8 @@ button[type="submit"] {
     }
 
     .social-icons {
-        font-size: 50px;
-        margin-top: 50px;
+        /* font-size: 50px; */
+        /* margin-top: 50px; */
     }
 
     .info-item i {
