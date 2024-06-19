@@ -19,7 +19,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
       message: document.getElementById('message').value,
     };
 
-    fetch('https://prashikbackend.onrender.com/send-email', {
+    fetch('http://13.127.188.182:5000/send-email', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
